@@ -2,7 +2,7 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index:
 
-> The Database of Pollinator Interactions (DoPI). https://www.sussex.ac.uk/lifesci/ebe/dopi/
+> Nick Balfour, Maria Clara Castellanos, Chris Johnson, Dave Goulson, Andrew Philippides. 2023. The Database of Pollinator Interactions (DoPI). Accessed at https://www.sussex.ac.uk/lifesci/ebe/dopi/ on 2023-12-01.
 > 
 > DoPI documents British pollinator-plant associations. 
 
