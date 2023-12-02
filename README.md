@@ -1,4 +1,4 @@
-[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/dopi)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/dopi) 
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/dopi)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/dopi) 
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index:
 
