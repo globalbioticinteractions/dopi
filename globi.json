@@ -1,5 +1,134 @@
-{ 
-  "_comment": "Sample GloBI dataset descriptor. See http://github.com/globalbioticinteractions for more information.",
-  "citation": "Nick Balfour, Maria Clara Castellanos, Chris Johnson, Dave Goulson, Andrew Philippides. 2023. The Database of Pollinator Interactions (DoPI). Accessed at https://www.sussex.ac.uk/lifesci/ebe/dopi/ on 2023-12-01.",
-  "deprecated": false
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "DoPI_dataset.csv",
+    "dcterms:bibliographicCitation" : "Balfour, N.J., Castellanos, M.C., Goulson, D., Philippides, A. and Johnson, C., 2022. DoPI: The Database of Pollinator Interactions. Ecology, 103, e3801.",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "", "NA" ],
+    "interactionTypeName": "visitsFlowersOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002622",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "author",
+        "titles" : "Authors",
+        "datatype" : "string"
+      }, {
+        "name" : "title",
+        "titles" : "Title",
+        "datatype" : "string"
+      }, {
+        "name" : "journal",
+        "titles" : "Journal",
+        "datatype" : "string"
+      }, {
+        "name" : "year",
+        "titles" : "Pub Year",
+        "datatype" : "string"
+      }, {
+        "name" : "volume",
+        "titles" : "Pub Vol",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "DOI",
+        "datatype" : "string"
+      }, {
+        "name" : "Methodology",
+        "titles" : "Methodology",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator Survey",
+        "titles" : "Pollinator Survey",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant Survey",
+        "titles" : "Plant Survey",
+        "datatype" : "string"
+      }, {
+        "name" : "NBN Pollinator Code",
+        "titles" : "NBN Pollinator Code",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Pollinator Species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "Caste",
+        "datatype" : "string"
+      }, {
+        "name" : "NBN Plant Code",
+        "titles" : "NBN Plant Code",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Plant Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Interactions",
+        "titles" : "Interactions",
+        "datatype" : "string"
+      }, {
+        "name" : "Date",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "Month",
+        "titles" : "Month",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Year",
+        "datatype" : "string"
+      }, {
+        "name" : "Grid Letter",
+        "titles" : "Grid Letter",
+        "datatype" : "string"
+      }, {
+        "name" : "Grid Code",
+        "titles" : "Grid Code",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollination",
+        "titles" : "Pollination",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollen",
+        "titles" : "Pollen",
+        "datatype" : "string"
+      }, {
+        "name" : "Nectar",
+        "titles" : "Nectar",
+        "datatype" : "string"
+      }, {
+        "name" : "Record",
+        "titles" : "Record",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "ArticleURL",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
 }
