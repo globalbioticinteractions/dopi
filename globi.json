@@ -41,7 +41,7 @@
         "titles" : "DOI",
         "datatype" : "string"
       }, {
-        "name" : "Methodology",
+        "name" : "basisOfRecordName",
         "titles" : "Methodology",
         "datatype" : "string"
       }, {
@@ -53,9 +53,12 @@
         "titles" : "Plant Survey",
         "datatype" : "string"
       }, {
-        "name" : "NBN Pollinator Code",
+        "name" : "sourceTaxonId",
         "titles" : "NBN Pollinator Code",
-        "datatype" : "string"
+        "datatype" : {
+           "valueUrl": "https://species.nbnatlas.org/species/{sourceTaxonId}",
+           "format": "string"
+        }
       }, {
         "name" : "sourceTaxonName",
         "titles" : "Pollinator Species",
@@ -65,9 +68,12 @@
         "titles" : "Caste",
         "datatype" : "string"
       }, {
-        "name" : "NBN Plant Code",
+        "name" : "targetTaxonId",
         "titles" : "NBN Plant Code",
-        "datatype" : "string"
+        "datatype" : {
+           "valueUrl": "https://species.nbnatlas.org/species/{targetTaxonId}",
+           "format": "string"
+        }
       }, {
         "name" : "targetTaxonName",
         "titles" : "Plant Species",
