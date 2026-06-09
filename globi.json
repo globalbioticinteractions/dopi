@@ -9,7 +9,7 @@
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
     "url" : "DoPI_dataset.csv",
-    "dcterms:bibliographicCitation" : "Balfour, N.J., Castellanos, M.C., Goulson, D., Philippides, A. and Johnson, C., 2022. DoPI: The Database of Pollinator Interactions. Ecology, 103, e3801.",
+    "dcterms:bibliographicCitation" : "Balfour NJ, Castellanos MC, Goulson D, Philippides A, Johnson C. DoPI: The Database of Pollinator Interactions. Ecology. 2022 Nov;103(11):e3801. DOI: 10.1002/ecy.3801. PMID: 35754095; PMCID: PMC9786240.",
     "delimiter" : ",",
     "headerRowCount" : 1,
     "null" : [ "", "NA" ],
