@@ -2,7 +2,7 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-Balfour, N.J., Castellanos, M.C., Goulson, D., Philippides, A. and Johnson, C., 2022. DoPI: The Database of Pollinator Interactions. Ecology, 103, e3801.
+Balfour NJ, Castellanos MC, Goulson D, Philippides A, Johnson C. DoPI: The Database of Pollinator Interactions. Ecology. 2022 Nov;103(11):e3801. DOI: [10.1002/ecy.3801](https://doi.org/10.1002/ecy.3801). PMID: 35754095; PMCID: PMC9786240.
 
 with data derived from:
 
