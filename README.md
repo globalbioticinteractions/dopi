@@ -6,4 +6,4 @@ Balfour NJ, Castellanos MC, Goulson D, Philippides A, Johnson C. DoPI: The Datab
 
 with data derived from:
 
-Balfour, N. J. (2025). The Database of Pollinator Interactions (DoPI) Dataset [Data set]. In Ecology (Version 1, Vol. 103, Number 11, p. e3801). Zenodo. https://doi.org/10.5281/zenodo.15224385
+Balfour, N., Edwards, A., Green, J., & Castellanos, M. C. (2026). DoPI The Database of Pollinator Interactions [Dataset]. In Ecology (Version 2.0, Vol. 103, Issue 11, p. e3801). Zenodo. https://doi.org/10.5281/zenodo.22876365
