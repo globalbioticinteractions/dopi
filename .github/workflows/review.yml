@@ -4,13 +4,7 @@
 name: GloBI review by Elton
 
 on:
-  push:
-    branches: [ '*' ]
-  pull_request:
-    branches: [ '*' ]
-  schedule:
-    - cron: "0 0 * * 1"
-
+  push
 jobs:
   review:
     runs-on: ubuntu-latest
